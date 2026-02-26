@@ -4,8 +4,5 @@
   "type": "module",
   "scripts": {
     "start": "npx -y @shopify/dev-mcp@latest"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.0"
   }
 }
