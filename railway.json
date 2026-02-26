@@ -5,8 +5,6 @@
   },
   "deploy": {
     "startCommand": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000",
-    "restartPolicyType": "ON_FAILURE",
-    "healthcheckPath": "/",
-    "healthcheckTimeout": 100
+    "restartPolicyType": "ON_FAILURE"
   }
 }
