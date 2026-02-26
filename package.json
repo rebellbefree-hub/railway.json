@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "npx -y @shopify/dev-mcp@latest"
+    "start": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
   }
 }
