@@ -4,8 +4,6 @@
     "builder": "RAILPACK"
   },
   "deploy": {
-    "startCommand": "npm start",
-    "healthcheckPath": "/",
-    "healthcheckTimeout": 300
+    "startCommand": "npm start"
   }
 }
