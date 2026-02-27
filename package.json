@@ -1,11 +1,21 @@
 {
   "name": "optimiz-shopify-mcp",
   "version": "1.0.0",
+  "description": "Shopify MCP Server for Optimiz Health",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000"
+    "start": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "shopify",
+    "mcp",
+    "relevance-ai"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.0"
+    "@shopify/dev-mcp": "latest"
   }
 }
