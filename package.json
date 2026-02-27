@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000",
+    "start": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
