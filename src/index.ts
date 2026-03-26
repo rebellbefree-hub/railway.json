@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
+app.use(express.json());
 const port = process.env.PORT || 3000;
 
 // 1. Initialize the internal Shopify MCP Server
