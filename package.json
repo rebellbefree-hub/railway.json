@@ -1,11 +1,21 @@
 {
-  "name": "optimiz-shopify-mcp",
+  "name": "optimiz-shopify-mcp-sse",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "npx -y @shopify/dev-mcp@latest --transport sse --port 3000"
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@shopify/dev-mcp": "latest"
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "@shopify/mcp-server": "^1.2.0",
+    "express": "^4.21.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
   }
 }
